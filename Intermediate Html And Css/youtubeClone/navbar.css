@@ -1,0 +1,121 @@
+
+.nav-bar{
+    background-color: lightblue;
+}
+
+.nav-bar-wrapper{
+    height: 100%;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.left-section{
+    display: flex;
+
+    display: inline-block;
+}
+
+.left-section i{
+    color: white;
+    font-size: 30px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+
+
+.youtubelogo{
+    margin-top: 8px;
+    position: relative;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.youtubelogo img{
+    width: 50px;
+}
+
+.left-section .youtubelogo h2{ 
+    color: white;
+    display: inline-block;
+    font-size: 28px;
+    margin: 0;
+    margin-top: -2px;
+    vertical-align: top;
+}
+
+.youtubelogo span{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+}
+
+
+
+.middle-section{
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    flex: 1;
+    width: 90%;
+    position: relative;
+    display: inline-block;
+}
+
+.searchbar input{
+    width: 100%;
+    border: solid 1px grey;
+    padding: 8px 0;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.searchbtn{
+    position: absolute;
+    bottom: 0;
+    right: -13px;
+    border:none;
+    background: grey;
+    height: 100%;
+    border-left: 1px solid black;
+    border-radius: 0 20px 20px 0;
+}
+
+.searchbtn i{
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+
+.fa-microphone{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 18px;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+
+
+.right-section{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+

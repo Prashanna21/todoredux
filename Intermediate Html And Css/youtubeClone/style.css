@@ -1,0 +1,51 @@
+html{
+    font-size: 6.25%;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+i{
+    font-size: 24px;
+
+}
+
+.main-body-wrapper{
+    display: flex;
+
+}
+
+.body-left-section{
+    background-color: coral;
+    font-size: 30px;
+    height: 92vh;
+}
+
+.body-main-section{
+    flex: 1;
+}
+
+.videos{
+    margin-top: 20px;
+    margin-left: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.video img{
+    width: 430px;
+    height: 320px;
+}
+
+.video-details .small-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.video-details h2{
+    margin-left: 8px;
+    display: inline-block;
+    width: 70%;
+    font-size: 20px;
+}
